@@ -1,0 +1,43 @@
+.goods_list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    .goods-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin: 0 .05rem .05rem 0;
+        width: 49.2%;
+        background: #fff;
+        // box-sizing: border-box;
+        dt{
+            height: 3.2rem;
+            overflow: hidden
+        }
+        dd{
+            p{
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: .1rem ;
+                font-size: .23rem;
+                span{
+                    font-size: .26rem;
+                    color: red;
+                }
+                .iconfont{
+                    font-size: .35rem;
+                    color: #333;
+                }
+            }
+           
+            
+        }
+        img{
+            width: 100%;
+        }
+    }
+}

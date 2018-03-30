@@ -1,0 +1,239 @@
+{
+    "success": 1,
+    "info": "请求成功",
+    "code": 1001,
+    "list": [
+        {
+            "id": 1,
+            "catagory_list": [
+                {
+                    "title": "全生毛",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "资厂三",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "团路选",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "观决业",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "几看建",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "风市由",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "catagory_list": [
+                {
+                    "title": "成包便",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "果安相",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "确查文",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "情二说",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "较解则",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "究共感",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "catagory_list": [
+                {
+                    "title": "合走八",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "无先至",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "开最在",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "立片变",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "团了严",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "交全计",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "catagory_list": [
+                {
+                    "title": "太部放",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "按经温",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "史使容",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "统她合",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "题法严",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "共力酸",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "catagory_list": [
+                {
+                    "title": "于风运",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "圆间区",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "组流验",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "们见京",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "力政府",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "手状量",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "catagory_list": [
+                {
+                    "title": "头十家",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "调劳意",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "千速设",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "劳料一",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "已界张",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "月较身",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "catagory_list": [
+                {
+                    "title": "见往号",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "具之好",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "都数委",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "第院条",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "好局叫",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "变人部",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "catagory_list": [
+                {
+                    "title": "商长再",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "立着由",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "离查将",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "非采业",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "好列她",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                },
+                {
+                    "title": "着维第",
+                    "images": "http://dummyimage.com/80x100/pink.png&text=catagory"
+                }
+            ]
+        }
+    ]
+}
