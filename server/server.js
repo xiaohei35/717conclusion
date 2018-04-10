@@ -15,6 +15,6 @@ app.all('*',function(req,res,next){
 
 api(app);
 
-app.listen(8088,function(){
-    console.log('server listen 8088')
+app.listen(8008,function(){
+    console.log('server listen 8008')
 })

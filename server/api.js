@@ -164,6 +164,7 @@ module.exports = function (app) {
             }
         })
     })
+
     //删除购物车指定商品
     app.post('/user/Cart/delGoods',function(req,res){
         //返回要删除的商品数组
@@ -191,5 +192,76 @@ module.exports = function (app) {
             }
         })
         
+    })
+
+    //新增地址
+    app.post('/user/Mail/addNew',function(req,res){
+        jwt.verify(req.body.token,'1511',function(err,decoded){
+            if(err){
+                res.json(err)
+            }
+            else{
+                let user=decoded.username;//token用户名
+                let delivery=JSON.parse(fs.readFileSync( "./delivery.json",{ encoding: "utf-8" }))
+                delete req.body.token;
+                if(delivery[user]){
+                    delivery[user].push(req.body)
+                }
+                else{
+                    delivery[user]=[req.body]
+                }
+                fs.writeFile('./delivery.json',JSON.stringify(delivery),function(err){
+                    if(err){
+                        res.json(err)
+                    }else{
+                        res.json({
+                            success:1,
+                            info:'地址添加成功'
+                        })
+                    }
+                })
+            }
+        })
+    })
+
+    //获取邮寄地址列表
+    app.post('/user/Mail/list',function(req,res){
+        jwt.verify(req.body.token,'1511',function(err,decoded){
+            if(err){
+                res.json(err)
+            }else{
+                let list = JSON.parse(fs.readFileSync('./delivery.json',{encoding:'utf-8'}))
+                res.json(list[decoded.username])
+            }
+        })
+    })
+
+    //删除邮寄地址
+    app.post('/user/Mail/deletelist',function(req,res){
+        console.log(req.body)
+        jwt.verify(req.body.token,'1511',function(err,decoded){
+            if(err){
+                res.json(err)
+            }else{
+                let list = JSON.parse(fs.readFileSync('./delivery.json',{encoding:'utf-8'}))
+                let user=list[decoded.username]
+                user.splice(req.body.index,1)
+                res.json(user)
+            }
+        })
+    })
+
+    //编辑邮寄地址
+    app.post('/user/Mail/editlist',function(req,res){
+        console.log(req.body)
+        jwt.verify(req.body.token,'1511',function(err,decoded){
+            if(err){
+                res.json(err)
+            }else{
+                let list = JSON.parse(fs.readFileSync('./delivery.json',{encoding:'utf-8'}))
+                let user=list[decoded.username]
+                res.json(user[req.body.index])
+            }
+        })
     })
 }

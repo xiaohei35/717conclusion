@@ -8,7 +8,7 @@ class Button extends Component{
         this.goBack=this.goBack.bind(this)
     }
     render(){
-        return <button onClick={this.props.onClick}>{this.props.children}</button>
+        return <button className='button' onClick={this.props.onClick}>{this.props.children}</button>
     }
     goBack(){
         this.props.history.go(-1)

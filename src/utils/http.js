@@ -7,7 +7,7 @@
 //本地测试服务器的域名
 let domin
 if(process.env=="development"){ //process.env开发环境 == development开发模式
-    domin = "http://localhost:8088"
+    domin = "http://localhost:8008"
 }
 if(process.env=="production"){
     domin = "http://www.lb717.com"

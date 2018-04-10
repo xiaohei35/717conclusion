@@ -26,7 +26,7 @@ class Search extends Component{
             <section className='lately'>
                 <p>最近搜索  <span className='iconfont icon-shanchu' onClick={this.clearHistory}></span></p>
                 {
-                    historylist.length ==0 ? <p style={{'font-size':'.27rem','margin-bottom':'.6rem','padding-left':'.2rem'}}>暂无搜索记录...</p> : 
+                    historylist.length ==0 ? <p style={{'fontSize':'.27rem','marginBottom':'.6rem','paddingLeft':'.2rem'}}>暂无搜索记录...</p> : 
                     <ul>
                         {historylist.map((item,ind)=>{
                             return <li key={ind} onClick={()=>{this.toResult(item)}}>{item}</li>

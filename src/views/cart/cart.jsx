@@ -20,7 +20,6 @@ class Cart extends Component {
     render() {
         let {str,edit,pay}=this.state;
         let { cartList , totalCost , selectAll, toggleSelectAll} = this.props
-        console.log(!!cartList)
         return <div id='cart'>
             <header>
                 <span className='iconfont icon-xiangzuo1' onClick={this.tomine}></span>
